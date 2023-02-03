@@ -1,0 +1,32 @@
+
+NEW TRAINING
+System_info: uname_result(system='Linux', node='vj-TUF-GAMING', release='5.4.0-137-generic', version='#154~18.04.1-Ubuntu SMP Tue Jan 10 16:58:20 UTC 2023', machine='x86_64')
+GPU_info: None
+BATCH_SIZE: 128
+GAMMA: 0.99
+EPS_START: 0.9
+EPS_END: 0.05
+EPS_DECAY: 1000
+TAU: 0.005
+LR: 0.0001
+H: 500
+NUM_EPISODES: 20
+avg_episode_len: 2.8
+avg_episode_reward: -6.8
+avg_episode_len_clipped: 2.8
+avg_episode_reward_clipped: -6.8
+total_training_time: 5.587502717971802
+avg_training_time_per_episode: 0.2793751358985901
+POLICY_NETWORK: DQN(
+  (h_layer1): Linear(in_features=88, out_features=128, bias=True)
+  (h_layer2): Linear(in_features=128, out_features=128, bias=True)
+  (h_layer3): Linear(in_features=128, out_features=128, bias=True)
+  (out_layer): Linear(in_features=128, out_features=6, bias=True)
+)
+TARGET_NETWORK: DQN(
+  (h_layer1): Linear(in_features=88, out_features=128, bias=True)
+  (h_layer2): Linear(in_features=128, out_features=128, bias=True)
+  (h_layer3): Linear(in_features=128, out_features=128, bias=True)
+  (out_layer): Linear(in_features=128, out_features=6, bias=True)
+)
+

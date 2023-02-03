@@ -1,0 +1,13 @@
+{
+  "gridsz_num_rows": 4,
+  "gridsz_num_cols": 4,
+  "pregrid_agent_row": 0,
+  "pregrid_agent_col": 0,
+  "pregrid_agent_dir": "north",
+  "postgrid_agent_row": 0,
+  "postgrid_agent_col": 1,
+  "postgrid_agent_dir": "east",
+  "walls": [[0, 2], [1, 0], [1, 1], [1, 2], [1, 3], [2, 2], [2, 3], [3, 0], [3, 3]],
+  "pregrid_markers": [],
+  "postgrid_markers": []
+}
